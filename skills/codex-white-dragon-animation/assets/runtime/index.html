@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>白璃 · Codex 启动动画预览</title>
+<link rel="stylesheet" href="preview.css"></head>
+<body>
+<header><div><strong>白璃 / CODEX · v11</strong><small>工作入场文字渐隐 · 无文字循环背景 · 人物与星光继续动态</small></div>
+<nav aria-label="预览操作"><button id="replay">重播启动</button><button id="skip">进入工作界面</button><button id="pause">暂停</button><button id="fullscreen">全屏</button><button id="export">导出启动视频</button><button id="export-handoff">导出文字淡出</button><button id="export-wallpaper">导出工作背景</button></nav></header>
+<main><div id="scene" role="img" aria-label="白璃龙娘启动动画"></div></main>
+<footer><label><input id="reduce" type="checkbox">减少动态效果</label><button id="sound">启用启动音乐并重播</button><label>时间点 <input id="timeline" type="range" min="0" max="16" step="0.005" value="0"></label><output id="status" aria-live="polite">正在加载本地素材…</output><a id="video-download" hidden>下载已导出的视频</a></footer>
+<div id="checkpoints" aria-label="关键帧检查"><button data-time="1">轮廓生成 · 1 秒</button><button data-time="1.7">线条与材质跟进 · 1.7 秒</button><button data-time="2.2">网格与材质重叠 · 2.2 秒</button><button data-time="3.1">网格退去 · 3.1 秒</button><button data-time="3.55">睁眼中间态 · 3.55 秒</button><button data-time="4.5">完整标题 · 4.5 秒</button><button data-time="15">启动末尾 · 15 秒</button></div>
+<div id="qa-controls" hidden><button id="eye-qa">生成眼睑检查图</button><button id="loop-qa">验证背景首尾</button><button id="bench" hidden>测量完整播放</button><output id="qa-report"></output></div>
+<div id="entry-checkpoints" aria-label="工作入场淡出检查"><button data-entry-time="0">入场文字 · 0 秒</button><button data-entry-time="0.75">半透明文字 · 0.75 秒</button><button data-entry-time="1.49">文字消失 · 1.5 秒</button></div>
+<p><a id="editor-link" href="/?edit=1&amp;qa=1" hidden>打开逐帧编辑与 4K 导出（较高负载，不是客户端播放路径）</a></p>
+<p class="note">v11 在进入工作界面后用 1.5 秒同步淡出品牌字、欢迎语、加载信息及横线；之后循环背景不再显示它们。启动 16 秒、工作入场 1.5 秒、无文字静音循环 16 秒，均为 3840 × 2160 / 60 fps，默认只播放视频。人物与星光运动连续，不混合不同时间的人脸；减少动态时直接进入无文字背景。素材约 1672 × 940，4K 为输出尺寸；仍是二维形变，不是真实三维发丝物理。</p>
+<script type="module" src="preview.mjs"></script>
+</body></html>

@@ -1,0 +1,15 @@
+* text=auto
+*.mjs text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.png -text
+*.jpg -text
+*.webp -text
+*.mp4 -text
+*.m4a -text
+*.tgz -text

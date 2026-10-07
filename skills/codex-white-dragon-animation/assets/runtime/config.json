@@ -1,0 +1,20 @@
+{
+  "title": "Codex",
+  "subtitle": "欢迎来到专业工作模式",
+  "englishSubtitle": "YOUR AI CODING COMPANION",
+  "durationSeconds": 16,
+  "exportWidth": 3840,
+  "exportHeight": 2160,
+  "exportFps": 60,
+  "exportBitrate": 40000000,
+  "audioFile": "assets/startup-audio.m4a",
+  "backgroundStrength": 0.85,
+  "liveMaxWidth": 3840,
+  "wallpaperFile": "wallpaper.mp4",
+  "handoffFile": "handoff.mp4",
+  "workEntrySeconds": 1.5,
+  "wallpaperCycle": "single-periodic",
+  "panelOpacity": 0.6,
+  "backgroundFps": 60,
+  "reduceMotion": false
+}

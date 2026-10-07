@@ -1,0 +1,12 @@
+**/local-consent.json
+**/session.json
+**/launcher.log
+**/live-validation.json
+**/host-validation.json
+**/*.lnk
+**/exports/
+**/node_modules/
+.test-setup-*/
+*.zip
+Thumbs.db
+.DS_Store

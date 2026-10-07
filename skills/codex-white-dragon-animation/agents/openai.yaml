@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex 白璃动画安装助手"
+  short_description: "Install Baili v11 startup animation and video wallpaper"
+  default_prompt: "使用 $codex-white-dragon-animation 为 Windows Codex 安装白璃 v11 独立动画快捷方式，并说明首次授权、动态背景及恢复方法。"

@@ -1,0 +1,9 @@
+{
+  "name": "baili-codex",
+  "version": "0.11.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test skills/codex-white-dragon-animation/tests/*.test.mjs skills/codex-white-dragon-animation/assets/runtime/tests/*.test.mjs"
+  },
+  "engines": {"node": ">=22.3.0"}
+}
